@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="dobot" type="DobotServer" name="server" args="USBtty0"/>
+		<param name="port name" value="/dev/usbtty0"  >
+	<node pkg="dobot" type="DobotClient_info" name="information"/>
+	<node pkg="dobot" type="publish_pose" name="pub_poae"/>
+	<node pkg="dobot" type="subsrcibe_pose" name="sub_pose"/>
+	<node pkg="dobot" type="DobotClient_JOG" name="JOG"/>
+	
+</launch>

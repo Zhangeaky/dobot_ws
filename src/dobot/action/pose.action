@@ -1,0 +1,9 @@
+#定义目标信息
+float32[] axis
+---
+#定义结果信息
+string result
+---
+#定义反馈信息
+string state
+

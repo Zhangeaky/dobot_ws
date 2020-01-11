@@ -1,0 +1,10 @@
+#定义目标信息
+float32[] axis
+int8 active
+---
+#定义结果信息
+bool isDone
+---
+#定义反馈信息
+string info
+

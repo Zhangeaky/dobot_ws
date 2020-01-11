@@ -1,0 +1,10 @@
+uint8 ptpMode
+float32 x
+float32 y
+float32 z
+float32 r
+uint64 count_1
+uint64 count_2
+---
+int32 result
+uint64 queuedCmdIndex
