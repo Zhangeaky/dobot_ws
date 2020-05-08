@@ -1,4 +1,0 @@
-bool enableCtrl
-int32 colorPort
----
-int32 result
