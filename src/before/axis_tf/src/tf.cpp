@@ -59,11 +59,7 @@ void getMarkerCoordinate(vector < vector<cv::Point2f> >& corners, vector<int>& i
 void sendMarkerTf(vector<cv::Vec3d>& marker_vecs, vector<cv::Vec3d>& marker_rvecs);
 void sendDobotTf();
 void sendDobotEffectorTF();
-/********************************************************************/
-/********************************************************************/
-/******************************主函数*********************************/
-/********************************************************************/
-/********************************************************************/
+
 int main(int argc, char** argv)
 {
     
